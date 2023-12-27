@@ -22,7 +22,7 @@ function deleted() {
     saveEl.textContent = " " + "Previous entries:" 
 }
 
-// Event listeners for buttons
-// document.getElementById("increment-btn").addEventListener("click", increment)
-// document.getElementById("save-btn").addEventListener("click", save)
-// document.getElementById("reset-btn").addEventListener("click", deleted)
+Event listeners for buttons
+document.getElementById("increment-btn").addEventListener("click", increment)
+document.getElementById("save-btn").addEventListener("click", save)
+document.getElementById("reset-btn").addEventListener("click", deleted)
